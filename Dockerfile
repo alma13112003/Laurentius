@@ -1,5 +1,5 @@
-FROM jboss/wildfly
-
+# PREJ: FROM jboss/wildfly
+FROM jboss/wildfly:11.0.0.Final
 ENV VERSION 2.0
 ENV SERVER_VERSION wildfly-11.0
 ENV LAU_PROJECT .
